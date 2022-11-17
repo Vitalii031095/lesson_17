@@ -1,0 +1,257 @@
+@media(max-width:767.98px) {
+   .button {
+      border-radius: 15px;
+      padding: 13.6px 25px;
+   }
+
+}
+
+@media(max-width: 1100px) {
+   .header__container {
+      gap: 35px;
+   }
+
+   .header__list {
+      column-gap: 25px;
+   }
+
+
+}
+
+@media(max-width: 990.98px) {
+.header {
+   padding: 14px 0;
+}
+   .header__container {
+      flex-direction: column;
+      column-gap: 20px;
+      row-gap: 20px;
+   }
+
+   .header__list {
+      flex: 0 1 auto;
+      column-gap: 83px
+   }
+
+   .header__link {
+      font-size: 24px;
+      text-shadow: 5px 2px 5px #424551;
+   }
+
+   .header__activ {
+      gap: 136px;
+   }
+}
+
+@media(max-width: 767.98px) {
+   .header {
+      position: relative;
+      background: linear-gradient(55.95deg, rgb(255, 63, 58, 0.5) 0%, rgb(247, 94, 5, 0.2) 100%);
+   }
+
+   .header__container {
+
+      column-gap: 18px;
+      row-gap: 17px;
+   }
+
+   .header__list {
+      column-gap: 45px
+   }
+
+   .header__activ {
+      gap: 70px;
+   }
+}
+
+@media(max-width: 640.98px) {
+   .header__list {
+      column-gap: 35px
+   }
+}
+
+@media(max-width: 580.98px) {
+   .header__list {
+      flex-direction: column;
+      text-shadow: none;
+   }
+
+   .header__activ {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+   }
+}
+
+/*------------------------------------------------*/
+@media(max-width: 1150px){
+   .play-bottom__item:not(:last-child)::after {
+      margin-left: 20px;
+   }
+}
+@media(max-width: 1100px) {
+   .play {
+      padding: 140px 0 40px 0;
+   }
+}
+
+@media(max-width: 990.98px) {
+   .play {
+      padding: 230px 0 40px 0;
+   }
+
+   .play__play {
+      font-size: 18px;
+      font-weight: 900;
+   }
+
+   .play__top:not(:last-child) {
+      margin-bottom: 70px;
+   }
+
+   .play__play:not(:last-child) {
+      margin-bottom: 20px;
+   }
+
+   .play__titl {
+      font-size: 53px;
+      line-height: 1.1;
+   }
+
+   .play__titl:not(:last-child) {
+      margin-bottom: 40px;
+   }
+
+   .play-bottom {
+      justify-content: space-evenly;
+      column-gap: 40px;
+      row-gap: 10px;
+   }
+   
+   .play-bottom__item {
+      min-width: 300px;
+      gap: 22px;
+      
+   }
+   .play-bottom__item:not(:last-child)::after {
+      display: none;
+   }
+
+}@media(max-width: 885px){
+   .play__silka{
+flex-direction: column;
+   }
+}
+@media(max-width: 799.98px){
+   .play__titl {
+      font-size: 45px;
+   }
+}
+@media(max-width: 767.98px){
+   .play {
+      padding: 30px 0px 20px;
+   }
+   .play__top {
+      flex-direction: column;
+   }
+.play__titl{
+   max-width: none;
+   text-align: center;
+}
+.play-bottom__item {
+   min-width: 200px;
+   gap: 22px;
+   
+}
+}
+@media(max-width: 580.98px) {
+   .play__titl{
+      font-size: 30px;
+   }
+   .play-bottom{
+      flex-direction: column;
+   }
+   .play-bottom__item{
+      gap: 22px;
+   }
+
+   .play-bottom__item span{
+      font-size: 36px; 
+   }
+   play-bottom__item p {
+      font-size: 22px;
+      font-weight: 700;
+   }
+}
+/*------------------------------------*/
+
+@media(max-width: 1150px){
+   .page__play {
+      margin-bottom: 60px;
+   }
+   .play__play {
+      margin-top: 15px;
+   }
+}
+@media(max-width: 870.98px) {
+   .subtitle{
+      text-align: center;
+   }
+   .featured__block-flex {
+      flex-direction: column;
+   }
+   .fuatured__button{
+      padding: 15.2px 45px;
+      font-weight: 900;
+   }
+   .fuatured__body{
+      flex-direction: column;
+   }
+   
+   .fuatured-info__profisional {
+      padding: 1px 12px;
+      font-size: 16px;
+   } 
+   .fuatured-info__title{
+      max-width: none;
+      font-size: 25px;
+   }
+}
+@media(max-width: 650.98px) {
+   .fuatured__title {
+      margin-bottom: 30px;
+   }
+   .title{
+      font-size: 40px;
+   }
+   .fuatured__items{
+      flex-direction:column;
+     
+      text-align: center;
+      gap: 18px;
+   }
+  .fuatured-info__price{
+     justify-content: center;
+   }
+}
+
+
+
+/*hover====================*/
+@media(any-hover: hover){
+   .button:hover{
+      background: linear-gradient(55.95deg, #af221d 0%, #b54809 100%);
+      transform:scale(1.1);
+      border-radius: 15px;
+   }
+   .button-border:hover{
+      background: #F89828;
+      transform:scale(1.1);
+     color:#FFFFFF;
+   }
+   .header__link:hover{
+      background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+      color:#FFFFFF;
+      border-radius: 4px;
+   }
+}
